@@ -1,6 +1,6 @@
 {
-  "name": "graphql-kafka-subscriptions",
-  "version": "0.4.0",
+  "name": "@aerogear/graphql-kafka-subscriptions",
+  "version": "0.4.1",
   "description": "Apollo graphql subscription over Kafka protocol",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -12,10 +12,10 @@
   },
   "files": [
     "dist/"
-  ],  
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ancashoria/graphql-kafka-subscriptions.git"
+    "url": "git+https://github.com/aerogear/graphql-kafka-subscriptions.git"
   },
   "keywords": [
     "graphql",
@@ -23,12 +23,12 @@
     "apollo",
     "subscriptions"
   ],
-  "author": "Ancas Horia",
+  "author": "Enda Phelan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ancashoria/graphql-kafka-subscriptions/issues"
+    "url": "https://github.com/aerogear/graphql-kafka-subscriptions/issues"
   },
-  "homepage": "https://github.com/ancashoria/graphql-kafka-subscriptions#readme",
+  "homepage": "https://github.com/aerogear/graphql-kafka-subscriptions#readme",
   "jest": {
     "roots": [
       "<rootDir>/src/test"
@@ -48,7 +48,6 @@
     "@types/node": "^13.13.2",
     "bunyan": "1.8.12",
     "dotenv": "^8.2.0",
-    "graphql": "^14.0.0",
     "graphql-subscriptions": "^1.1.0",
     "iterall": "^1.2.2",
     "node-rdkafka": "^2.8.1",
@@ -58,6 +57,9 @@
     "@types/jest": "^25.2.1",
     "jest": "^25.4.0",
     "ts-jest": "^25.4.0",
-    "typescript": "^3.8.3"    
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "graphql": "14.x || 15.x"
   }
 }
